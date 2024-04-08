@@ -1,4 +1,4 @@
-#https://indiamart-ab.netlify.app/
+**https://indiamart-ab.netlify.app/**
 
 This project aims to develop a basic landing page for IndiaMART, a leading B2B marketplace in India. Utilizing HTML for structure and CSS for styling, the prototype will provide a user-friendly introduction to the platform's functionalities. 
 
