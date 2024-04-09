@@ -167,18 +167,30 @@ header {
 .mega-search .row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 24px;
 }
 
 .mega-search .row .menu-item {
-  margin: 0 5px;
+  margin: 0 4px;
   cursor: pointer;
   flex-grow: 1;
   max-width: 100%;
 }
 
 .mega-search .row .menu-item .menu-item-wrapper {
-  padding: 12px;
-  width: 155px;
+  padding: 8px;
+  width: 168px;
+  transition: all 800ms ease-in-out;
+}
+
+.mega-search .row .menu-item .menu-item-wrapper:hover {
+  background: #2e3192;
+  letter-spacing: 3px;
+  color: #f3f3f3;
+  border-radius: 20px;
+  span {
+    color: #f3f3f3;
+  }
 }
 
 .mega-search .row .menu-item .menu-item-wrapper span {
@@ -196,8 +208,8 @@ main {
 
 .container {
   text-align: center;
-  margin: 0 auto;
-  padding: 15px;
+  margin: 10px auto;
+  padding: 20px;
   width: 1450px;
 }
 
@@ -235,8 +247,8 @@ main {
 
 .p-15 .item-widget .items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 20px;
 }
 
 .p-15 .item-widget .items div {
@@ -249,10 +261,14 @@ main {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
 }
 
+/* .p-15 .item-widget .items div:hover {
+  scale: 1.07;
+} */
+
 .p-15 .item-widget .items div .pbrt {
   display: block;
   width: 228px;
-  height: 180px;
+  height: 200px;
   margin: 0 auto;
   position: relative;
   border: 0px;
@@ -265,6 +281,11 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 800ms;
+}
+
+.p-15 .item-widget .items div .pbrt img:hover {
+  scale: 1.2;
 }
 
 .p-15 .item-widget .items div h3 {
@@ -297,7 +318,7 @@ main {
   }
 }
 
-.p-15 .item-widget .items div .number {
+.p-15 .item-widget .items div span.number {
   padding: 2px;
   background: #f3f3f3;
   color: #2e3192;
@@ -309,7 +330,13 @@ main {
   font-weight: 700;
   text-align: center;
   align-content: center;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.p-15 .item-widget .items div span.number:hover {
+  background: #058b80;
+  text-transform: uppercase;
+  color: #f3f3f3;
 }
 
 .p-15 .item-widget .items div button {
@@ -327,6 +354,11 @@ main {
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
+}
+
+.p-15 .item-widget .items div button:hover {
+  background: #5055ef;
+  text-transform: uppercase;
 }
 
 .p-15 .item-widget .category {
@@ -361,6 +393,11 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all 800ms;
+}
+
+.p-15 .item-widget .category div .pbrt img:hover {
+  scale: 1.2;
 }
 
 .p-15 .item-widget .category div h3 {
@@ -377,6 +414,11 @@ main {
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
+}
+
+.p-15 .item-widget .category div button:hover {
+  background: #5055ef;
+  text-transform: uppercase;
 }
 
 footer .upper-content {
