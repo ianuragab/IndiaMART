@@ -249,6 +249,10 @@ main {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
 }
 
+.p-15 .item-widget .items div:hover {
+  scale: 1.06;
+}
+
 .p-15 .item-widget .items div .pbrt {
   display: block;
   width: 228px;
@@ -265,6 +269,10 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.p-15 .item-widget .items div .pbrt:hover {
+  scale: 1.4;
 }
 
 .p-15 .item-widget .items div h3 {
