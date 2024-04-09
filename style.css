@@ -416,3 +416,43 @@ footer .main-content {
   }
 }
 
+/* 
+@media screen and (max-width: 480px) {
+  * {
+    //overflow: hidden;
+    width: 96%;
+  }
+  .logo {
+    margin: 4px 12px;
+    width: 120px;
+  }
+  .logo img {
+    width: 100px;
+    height: 36px;
+  }
+  .nav-items {
+    gap: 4px;
+  }
+  .search-wrapper {
+    height: 120px;
+  }
+  .search-area {
+    display: none;
+  }
+  #Banner .container {
+    width: 90%;
+  }
+  #Banner .container img {
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  .mega-search .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mega-search .row .menu-item .menu-item-wrapper {
+    padding: 12px;
+    //width: 140px;
+  }
+} 
+*/
