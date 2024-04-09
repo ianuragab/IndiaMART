@@ -334,9 +334,9 @@ main {
 }
 
 .p-15 .item-widget .items div span.number:hover {
-  background: #058b80;
+  /* background: #058b80; */
   text-transform: uppercase;
-  color: #f3f3f3;
+  color: #000;
 }
 
 .p-15 .item-widget .items div button {
@@ -344,7 +344,7 @@ main {
   padding: 12px 4px;
   background: #2e3192;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 16px;
   position: absolute;
   bottom: 15px;
   margin: 0 auto;
