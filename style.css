@@ -253,7 +253,7 @@ main {
 
 .p-15 .item-widget .items div {
   position: relative;
-  padding: 0px 0px 48px 0px;
+  padding: 4px 0px 28px 0px;
   border: 1px solid #dfdfdf;
   border-radius: 12px;
   text-align: left;
@@ -322,15 +322,15 @@ main {
   padding: 2px;
   background: #f3f3f3;
   color: #2e3192;
-  border-radius: 3px;
+  border-radius: 12px;
   margin: 0 auto;
-  width: 86%;
+  width: 55%;
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
   text-align: center;
   align-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 44px;
 }
 
 .p-15 .item-widget .items div span.number:hover {
@@ -401,16 +401,17 @@ main {
 }
 
 .p-15 .item-widget .category div h3 {
-  padding: 20px;
+  padding: 16px;
 }
 
 .p-15 .item-widget .category div button {
   border: 1px solid #2e3192;
+  margin-left: 12px;
   padding: 12px 4px;
   background: #2e3192;
   color: #fff;
   border-radius: 10px;
-  width: 100%;
+  width: 90%;
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
