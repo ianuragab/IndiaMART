@@ -367,7 +367,7 @@ main {
   border: 1px solid #dfdfdf;
   border-radius: 12px;
   text-align: left;
-  max-width: 100%;
+  transition: all 0.8s ease-in-out;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
 }
 
