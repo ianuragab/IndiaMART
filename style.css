@@ -185,7 +185,7 @@ header {
 
 .mega-search .row .menu-item .menu-item-wrapper:hover {
   background: #2e3192;
-  letter-spacing: 1.15px;
+  /* letter-spacing: 1.15px; */
   color: #f3f3f3;
   border-radius: 20px;
   span {
